@@ -5,6 +5,10 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 sudo apt update
 sudo apt install sublime-text
 
+mkdir -p "~/.config/sublime-text"
+mkdir -p  "~/.config/sublime-text/Installed Packages/"
+mkdir -p "~/.config/sublime-text/Packages"
+
 installed_packages_path="$HOME/.config/sublime-text/Installed Packages"
 packages_path="$HOME/.config/sublime-text/Packages"
 
@@ -15,7 +19,7 @@ for source_file in ./"Installed Packages/"*; do
     if [[ -f "$target_file" ]]; then
         rm "$target_file"
     fi
-    cp "$source_file" "$installed_packages_path"
+    cp -r "$source_file" "$installed_packages_path"
 done
 
 for source_file in ./"Packages/"*; do
@@ -25,5 +29,5 @@ for source_file in ./"Packages/"*; do
     if [[ -f "$target_file" ]]; then
         rm "$target_file"
     fi
-    cp "$source_file" "$packages_path"
+    cp -r "$source_file" "$packages_path"
 done
