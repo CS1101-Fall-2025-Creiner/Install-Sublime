@@ -1,0 +1,12 @@
+{
+	"ignored_packages":
+	[
+		"LSP-pyright",
+		"Vintage",
+	],
+	"font_size": 12,
+	"theme": "Adaptive.sublime-theme",
+	"color_scheme": "Catppuccin Macchiato.sublime-color-scheme",
+	"index_files": false,
+	"auto_complete_commit_on_tab": true,
+}

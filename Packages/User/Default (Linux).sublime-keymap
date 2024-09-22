@@ -1,0 +1,6 @@
+[
+    { "keys": ["alt+1"], "command": "toggle_terminus_panel" },
+    { "keys": ["ctrl+k", "b"], "command": "toggle_side_bar" },
+    { "python_interpreter": "/usr/bin/python3.12" },
+    { "keys": ["ctrl+k", "delete"], "command": "destroy_pane", "args": {"direction": "self"} }
+]
