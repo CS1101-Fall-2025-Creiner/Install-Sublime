@@ -3,7 +3,7 @@
 brew install --cask sublime-text
 #brew install wget
 mkdir -p ~/Library/Application\ Support/Sublime\ Text
-cp -r ./macOS-file/* ~/Library/Application\ Support/Sublime\ Text
+cp -r ./macOS-files/* ~/Library/Application\ Support/Sublime\ Text
 # mkdir -p ~/Library/Application\ Support/Sublime\ Text/Installed\ Packages
 # mkdir -p ~/Library/Application\ Support/Sublime\ Text/Packages/User
 #wget -O ~/Library/Application\ Support/Sublime\ Text/Installed\ Packages/Package\ Control.sublime-package https://packagecontrol.io/Package%20Control.sublime-package
