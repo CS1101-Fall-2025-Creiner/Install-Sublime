@@ -2,7 +2,9 @@
 	"bootstrapped": true,
 	"installed_packages":
 	[
-		"Origami",
+		"LSP",
+        "LSP-pyright",
+        "Origami",
 		"Package Control",
 		"Terminus",
 	],
