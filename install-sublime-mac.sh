@@ -3,6 +3,7 @@
 brew install --cask sublime-text
 brew install wget
 mkdir -p ~/Library/Application\ Support/Sublime\ Text/Installed\ Packages
+mkdir -p ~/Library/Application\ Sublime/Sublime\ Text/Packages/User
 echo '{
     "installed_packages": ["Package Control"]
 }' > ~/Library/Application\ Support/Sublime\ Text/Packages/User/Package\ Control.sublime-settings
