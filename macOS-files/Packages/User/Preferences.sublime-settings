@@ -3,4 +3,6 @@
 	[
 		"Vintage",
 	],
+	"index_files": true,
+	"color_scheme": "Mariana.sublime-color-scheme",
 }

@@ -2,7 +2,9 @@
 	"bootstrapped": true,
 	"installed_packages":
 	[
-		"Package Control"
+		"Origami",
+		"Package Control",
+		"Terminus",
 	],
 	"in_process_packages":
 	[
