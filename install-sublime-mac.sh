@@ -1,11 +1,13 @@
 #!/bin/bash
 
 brew install --cask sublime-text
-brew install wget
+#brew install wget
 mkdir -p ~/Library/Application\ Support/Sublime\ Text/Installed\ Packages
 mkdir -p ~/Library/Application\ Support/Sublime\ Text/Packages/User
-wget -O ~/Library/Application\ Support/Sublime\ Text/Installed\ Packages/Package\ Control.sublime-package https://packagecontrol.io/Package%20Control.sublime-package
-cp "Package Control.sublime-settings" ~/Library/Application\ Support/Sublime\ Text/Packages/User
+#wget -O ~/Library/Application\ Support/Sublime\ Text/Installed\ Packages/Package\ Control.sublime-package https://packagecontrol.io/Package%20Control.sublime-package
+cp ./macOS-files/Package\ Control.sublime-package ~/Library/Application\ Support/Sublime\ Text/Installed\ Packages
+cp ./macOS-files/Package Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text/Packages/User
+cp ./macOS-files/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text/Packages/User
 
 # mkdir -p "~/.config/sublime-text"
 # mkdir -p  "~/.config/sublime-text/Installed Packages/"
