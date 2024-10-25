@@ -1,4 +1,5 @@
 [
 	{ "keys": ["alt+`"], "command": "toggle_terminus_panel" },
-	{ "keys": ["super+k", "delete"], "command": "destroy_pane", "args": {"direction": "self"} },	
+	{ "keys": ["super+k", "delete"], "command": "destroy_pane", "args": {"direction": "self"} },
+	{ "keys": ["ctrl+k", "ctrl+b"], "command": "toggle_side_bar" },
 ]
