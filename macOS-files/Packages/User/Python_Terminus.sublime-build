@@ -1,6 +1,6 @@
 {
 	"target": "terminus_exec",
-	"cancel": "terminux_cancel_build",
+	"cancel": "terminus_cancel_build",
 	"focus": true,
 	
 	"cmd": ["python3", "-u", "$file"],
