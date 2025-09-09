@@ -1,7 +1,7 @@
 @echo off
 
 REM Clone the GitHub repository
-git clone https://github.com/Creiner-CS1101-06/Install-Sublime.git
+git clone git clone https://github.com/Creiner-CS1101-06/Install-Sublime.git
 
 REM Navigate into the cloned repository directory
 cd Install-Sublime
