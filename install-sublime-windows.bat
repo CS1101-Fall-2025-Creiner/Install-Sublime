@@ -1,10 +1,14 @@
 @echo off
 
-REM Create the destination directory if it doesn't exist
-mkdir "%APPDATA%\Sublime Text"
+REM Clone the GitHub repository
+git clone https://github.com/Creiner-CS1101-06/Install-Sublime.git
 
-REM Copy the contents of the windows-files directory to the destination
-xcopy /E /I "windows-files\*" "%APPDATA%\Sublime Text"
-pip3 install pyright
+REM Navigate into the cloned repository directory
+cd Install-Sublime
 
-echo Files have been copied successfully!
+REM Run the installation batch file
+call install-sublime-windows-helper.bat
+
+REM Print completion message
+echo Installation script executed successfully!
+
